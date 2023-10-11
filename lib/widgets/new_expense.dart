@@ -109,7 +109,6 @@ class _NewExpenseState extends State<NewExpense> {
 
     return LayoutBuilder(builder: (ctx, constraints) {
       final width = constraints.maxWidth;
-      final height = constraints.maxHeight;
 
       return SizedBox(
         height: double.infinity,
